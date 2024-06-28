@@ -1,0 +1,53 @@
+
+    *::after {
+        box-sizing: border-box;
+    }
+
+    .boton {
+        font-size: 50px; /* Reducido el tamaño del icono */
+        transition: ease 0.3s; /* Más rápido la transición */
+        color: #25D366; /* Color verde de WhatsApp */
+    }
+
+    .boton:hover {
+        transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    }
+
+    a {
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    .container-boton {
+        position: fixed;
+        width: 70px; /* Ajustado para icono de Bootstrap */
+        height: 70px; /* Ajustado para icono de Bootstrap */
+        line-height: 70px;
+        top: 82%; /* Ajustado para la altura del 20% */
+        right: 30px;
+        background-color: #fff;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+    }
+
+    body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #555555;
+        text-align: left;
+        background-color: #F3F6FF;
+    }
+
+    html {
+        font-family: sans-serif;
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
